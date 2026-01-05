@@ -1,0 +1,79 @@
+// https://bitquery-blockchain-dataset.s3.us-east-1.amazonaws.com/solana/dex_pools/390740000_390740049.parquet
+/* More files in S3 under:
+bitquery-blockchain-dataset/solana/dex_pools/
+*/
+
+module.exports = [
+  {
+    "Block_Date":1767312000000,
+    "Block_Slot":390740000,
+    "Block_Time":1767323643,
+    "Instruction_CallPath":[
+      5
+    ],
+    "Instruction_ExternalSeqNumber":6,
+    "Instruction_Index":8,
+    "Instruction_InternalSeqNumber":3,
+    "Instruction_Program_Address":"pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+    "Instruction_Program_Method":"sell",
+    "Instruction_Program_Name":"pump_amm",
+    "Pool_BaseCurrency_ChangeAmount":"991500.000000",
+    "Pool_BaseCurrency_ChangeAmountInUSD":0.0,
+    "Pool_BaseCurrency_PostAmount":"141063200.987326",
+    "Pool_BaseCurrency_PostAmountInUSD":0.0,
+    "Pool_BaseCurrency_Price":0.0000011925,
+    "Pool_BaseCurrency_PriceInUSD":0.0001515216,
+    "Pool_Dex_ProgramAddress":"pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+    "Pool_Dex_ProtocolFamily":"Pumpswap",
+    "Pool_Dex_ProtocolName":"pump_amm",
+    "Pool_Market_BaseCurrency_CollectionAddress":"",
+    "Pool_Market_BaseCurrency_Decimals":6,
+    "Pool_Market_BaseCurrency_EditionNonce":255,
+    "Pool_Market_BaseCurrency_Fungible":"true",
+    "Pool_Market_BaseCurrency_MetadataAddress":"BcaWMkU1HLqqibf1fCprFULU7N3u6viP3Nhr5G3fbszt",
+    "Pool_Market_BaseCurrency_MintAddress":"8a3sEw2kizHxVnT9oLEVLADx8fTMPkjbEGSraqNWpump",
+    "Pool_Market_BaseCurrency_Name":"Syra Agent",
+    "Pool_Market_BaseCurrency_ProgramAddress":"TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "Pool_Market_BaseCurrency_SellerFeeBasisPoints":0,
+    "Pool_Market_BaseCurrency_Symbol":"SYRA",
+    "Pool_Market_BaseCurrency_TokenCreators_Address":[
+      "Cp5yFGYx88EEuUjhDAaQzXHrgxvVeYEWixtRnLFE81K4"
+    ],
+    "Pool_Market_BaseCurrency_TokenStandard":"Fungible",
+    "Pool_Market_BaseCurrency_Uri":"https:\/\/ipfs.io\/ipfs\/bafkreihkmwqednxcjluxka7rdlyakrlkxq5pxp6det54kh2mctefsbeyhy",
+    "Pool_Market_BaseCurrency_UpdateAuthority":"TSLvdd1pWpHVjahSpsvCXUbgwsL3JAcvokwaKt1eokM",
+    "Pool_Market_BaseCurrency_VerifiedCollection":"false",
+    "Pool_Market_MarketAddress":"Ha56U92pMwNh9ksQf7wWhi2Xh9aqDeDQSAZo6m6Jdbqf",
+    "Pool_Market_QuoteCurrency_CollectionAddress":"",
+    "Pool_Market_QuoteCurrency_Decimals":9,
+    "Pool_Market_QuoteCurrency_EditionNonce":0,
+    "Pool_Market_QuoteCurrency_Fungible":"true",
+    "Pool_Market_QuoteCurrency_MetadataAddress":"",
+    "Pool_Market_QuoteCurrency_MintAddress":"So11111111111111111111111111111111111111112",
+    "Pool_Market_QuoteCurrency_Name":"Wrapped Solana",
+    "Pool_Market_QuoteCurrency_ProgramAddress":"",
+    "Pool_Market_QuoteCurrency_SellerFeeBasisPoints":0,
+    "Pool_Market_QuoteCurrency_Symbol":"WSOL",
+    "Pool_Market_QuoteCurrency_TokenCreators_Address":[
+
+    ],
+    "Pool_Market_QuoteCurrency_TokenStandard":"",
+    "Pool_Market_QuoteCurrency_Uri":"",
+    "Pool_Market_QuoteCurrency_UpdateAuthority":"NativeLoader1111111111111111111111111111111",
+    "Pool_Market_QuoteCurrency_VerifiedCollection":"false",
+    "Pool_QuoteCurrency_ChangeAmount":"-1.188299388",
+    "Pool_QuoteCurrency_ChangeAmountInUSD":-150.9923616239,
+    "Pool_QuoteCurrency_PostAmount":"168.212848400",
+    "Pool_QuoteCurrency_PostAmountInUSD":21374.1212794464,
+    "Pool_QuoteCurrency_Price":838599.4430811029,
+    "Pool_QuoteCurrency_PriceInUSD":0.0,
+    "PoolEvent_Index":0,
+    "Transaction_Fee":"0.000080300",
+    "Transaction_FeeInUSD":0.0102058677,
+    "Transaction_FeePayer":"Dd7XfJY6R9xdPFDpcb6jgsC74ha4UquuywaH3iJF5iSc",
+    "Transaction_Index":45,
+    "Transaction_Result_Success":"true",
+    "Transaction_Signature":"38tuhQ3QEPpxdEWLXoEntEAxNrA3XDvkwYZLuYtdimyxXVPpigqNZbUSSxpyToQQtqFKCo9Ls39dpHp6mfV2GCAC",
+    "Transaction_Signer":"Dd7XfJY6R9xdPFDpcb6jgsC74ha4UquuywaH3iJF5iSc"
+  }
+];
